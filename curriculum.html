@@ -1,0 +1,860 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css"
+    />
+    <link rel="stylesheet" href="assets/fonts/poppins" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/scroll.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <!--Script-->
+    <script src="assets/js/menu.js" defer></script>
+
+    <title>Curriculum</title>
+  </head>
+  <body>
+    <!-- Menu Superior-->
+    <nav class="content__menu">
+      <ul class="content-menu__list">
+        <li class="content-menu__option">
+          <a href="index.html" class="content-menu__link menu__link--active">
+            <i class="content-menu__icon fa-solid fa-house"></i>
+            <span class="content-menu__overlay">Home</span>
+          </a>
+        </li>
+
+        <li class="content-menu__option">
+          <a href="sobre-mi.html" class="content-menu__link">
+            <i class="content-menu__icon fa-solid fa-user"></i>
+            <span class="content-menu__overlay">Sobre mi</span>
+          </a>
+        </li>
+
+        <li class="content-menu__option">
+          <a href="curriculum.html" class="content-menu__link">
+            <i class="content-menu__icon fa-solid fa-graduation-cap"></i>
+            <span class="content-menu__overlay">Curriculum</span>
+          </a>
+        </li>
+
+        <li class="content-menu__option">
+          <a href="portfolio.html" class="content-menu__link">
+            <i class="content-menu__icon fa-solid fa-briefcase"></i>
+            <span class="content-menu__overlay">Portfolio</span>
+          </a>
+        </li>
+
+        <li class="content-menu__option">
+          <a href="blog.html" class="content-menu__link">
+            <i class="content-menu__icon fa-solid fa-book"></i>
+            <span class="content-menu__overlay">Blog</span>
+          </a>
+        </li>
+
+        <li class="content-menu__option">
+          <a href="contacto.html" class="content-menu__link">
+            <i class="content-menu__icon fa-solid fa-envelope"></i>
+            <span class="content-menu__overlay">Contacto</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Layout Principal-->
+    <div class="layout">
+      <!-- Barra Lateral (info usuario)-->
+      <aside class="layout__aside">
+        <section class="aside__user-info">
+          <!-- Información general usuario -->
+          <div class="user-info__general">
+            <div class="user-info__container-image">
+              <img
+                src="assets/img/default-user.jpg"
+                class="user-info__image"
+                alt="Foto de perfil de Ana Gordo"
+                ;
+              />
+            </div>
+            <h2 class="user-info__name">Ana Gordo Ortiz</h2>
+            <h4 class="user-info__job">Diseñadora</h4>
+          </div>
+          <!-- Menú de información -->
+          <nav class="layout__menu">
+            <ul class="menu__list">
+              <li class="menu__option">
+                <a href="index.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-house"></i>
+                  <span class="menu__overlay">Home</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="sobre-mi.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-user"></i>
+                  <span class="menu__overlay">Sobre mi</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="curriculum.html" class="menu__link menu__link--active">
+                  <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                  <span class="menu__overlay">Curriculum</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="portfolio.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-briefcase"></i>
+                  <span class="menu__overlay">Portfolio</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="blog.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-book"></i>
+                  <span class="menu__overlay">Blog</span>
+                </a>
+              </li>
+
+              <li class="menu__option">
+                <a href="contacto.html" class="menu__link">
+                  <i class="menu__icon fa-solid fa-envelope"></i>
+                  <span class="menu__overlay">Contacto</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+
+          <!-- Link redes sociales -->
+          <div class="user-info__links">
+            <ul class="links__social">
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-linkedin"></i>
+                </a>
+              </li>
+
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-behance"></i>
+                </a>
+              </li>
+
+              <li class="social__option">
+                <a href="#" class="social__link">
+                  <i class="social__icon fa-brands fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Boton curriculum -->
+          <div class="user-info__buttons">
+            <a href="contacto.html" class="user-info__btn"> Contacta </a>
+          </div>
+
+          <!-- Pie de página -->
+
+          <footer class="user-info__footer">&copy; 2024 Ana Gordo WEB</footer>
+        </section>
+      </aside>
+
+      <!-- Menu Responsive -->
+      <div class="layout__menu-toggle">
+        <i class="menu-toggle__icon fa-solid fa-bars"></i>
+        <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+      </div>
+
+      <!-- Contenido Principal -->
+      <main class="layout__content">
+        <section class="content__page content__resume">
+          <header class="resume__header">
+            <h1 class="resume__title">Curriculum</h1>
+          </header>
+
+          <div class="resume__container">
+            <section class="resume__left">
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Formación</h2>
+              </header>
+
+              <div class="resume__timelines">
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2023-2024</h4>
+                    <span class="timeline__company">ESDIMA</span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">
+                      Master en Diseño Gráfico y Web UX
+                    </h3>
+                    <ul class="timeline__text">
+                      <li class="timeline__item">
+                        Dominio de Herramientas de Diseño: Adobe Photoshop,
+                        Illustrator, Indesign.
+                      </li>
+                      <li class="timeline__item">
+                        Diseño Gráfico Creativo y Conceptualización.
+                      </li>
+                      <li class="timeline__item">
+                        Creación de Interfaces Intuitivas y Atractivas.
+                      </li>
+                      <li class="timeline__item">
+                        Experiencia de Usuario (UX) centrada en el usuario
+                        final.
+                      </li>
+                      <li class="timeline__item">
+                        Diseño Web Responsivo y Adaptativo.
+                      </li>
+                      <li class="timeline__item">
+                        Prototipado de Interfaces y Experiencias de Usuario.
+                      </li>
+                      <li class="timeline__item">Evaluación de Usabilidad.</li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2022-2023</h4>
+                    <span class="timeline__company"
+                      >Universidad Autónoma de Madrid</span
+                    >
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">
+                      Experta en Organización y RRHH
+                    </h3>
+                    <ul class="timeline__text">
+                      <li class="timeline__item">
+                        Gestión del Talento: Identificación, Desarrollo y
+                        Retención.
+                      </li>
+                      <li class="timeline__item">
+                        Organización Empresarial Eficiente y Estructuración de
+                        Recursos.
+                      </li>
+                      <li class="timeline__item">
+                        Desarrollo Organizacional y Estrategias de Cambio.
+                      </li>
+                      <li class="timeline__item">
+                        Análisis y Descripción de Puestos de Trabajo.
+                      </li>
+                      <li class="timeline__item">
+                        Gestión de Relaciones Laborales y Negociación Colectiva.
+                      </li>
+                      <li class="timeline__item">
+                        Implementación de Programas de Bienestar y Conciliación
+                        Laboral.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2019-2023</h4>
+                    <span class="timeline__company"
+                      >Universidad Autónoma de Madrid</span
+                    >
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Grado en Psicologia</h3>
+                    <ul class="timeline__text">
+                      <li class="timeline__item">
+                        Evaluación Psicológica: Métodos y Técnicas.
+                      </li>
+                      <li class="timeline__item">
+                        Intervención Psicosocial y Psicoterapia.
+                      </li>
+                      <li class="timeline__item">
+                        Comunicación Interpersonal y Habilidades Terapéuticas.
+                      </li>
+                      <li class="timeline__item">
+                        Resolución de Conflictos y Negociación.
+                      </li>
+                      <li class="timeline__item">
+                        Análisis Estadístico de Datos.
+                      </li>
+                      <li class="timeline__item">
+                        Psicología Organizacional y del Trabajo.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2017-2019</h4>
+                    <span class="timeline__company">I.E.S Moratalaz</span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">
+                      Técnico Superior Laboratorio Clínico y Biomédico.
+                    </h3>
+                    <ul class="timeline__text">
+                      <li class="timeline__item">
+                        Técnicas de análisis de muestras biológicas.
+                      </li>
+                      <li class="timeline__item">
+                        Uso de equipos de laboratorio especializados.
+                      </li>
+                      <li class="timeline__item">
+                        Cumplimiento de estándares de seguridad y calidad.
+                      </li>
+                      <li class="timeline__item">
+                        Colaboración en equipos interdisciplinarios de
+                        investigación.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Experiencia</h2>
+              </header>
+
+              <div class="resume__timelines">
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2017-2024</h4>
+                    <span class="timeline__company">INDITEX</span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">Costumer Care</h3>
+                    <ul class="timeline__text">
+                      <li class="timeline__item">
+                        Atención al cliente de alta calidad.
+                      </li>
+                      <li class="timeline__item">
+                        Resolución eficaz de problemas y quejas.
+                      </li>
+                      <li class="timeline__item">
+                        Comunicación clara y efectiva.
+                      </li>
+                      <li class="timeline__item">
+                        Trabajo en equipo en entornos dinámicos y orientados al
+                        servicio.
+                      </li>
+                      <li class="timeline__item">
+                        Gestión de relaciones con los clientes.
+                      </li>
+                      <li class="timeline__item">
+                        Realización de multitareas.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2022-2023</h4>
+                    <span class="timeline__company">INETUM</span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">
+                      Técnico Desarrollo & Engagement RRHH
+                    </h3>
+                    <ul class="timeline__text">
+                      <li class="timeline__item">
+                        Desarrollo de estrategias de compromiso y retención de
+                        empleados.
+                      </li>
+                      <li class="timeline__item">
+                        Implementación de programas de desarrollo profesional y
+                        personal.
+                      </li>
+                      <li class="timeline__item">
+                        Facilitación de sesiones de formación y desarrollo.
+                      </li>
+                      <li class="timeline__item">
+                        Comunicación interna efectiva.
+                      </li>
+                      <li class="timeline__item">
+                        Colaboración con equipos multidisciplinarios.
+                      </li>
+                      <li class="timeline__item">
+                        Análisis de necesidades de formación y desarrollo de
+                        personal.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+
+                <article class="timelines__timeline">
+                  <header class="timeline__header">
+                    <h4 class="timeline__year">2018-2020</h4>
+                    <span class="timeline__company">EDUMA</span>
+                  </header>
+
+                  <div class="timeline__divider"></div>
+
+                  <div class="timeline__description">
+                    <h3 class="timeline__title">
+                      Monitora de ocio y tiempo libre
+                    </h3>
+                    <ul class="timeline__text">
+                      <li class="timeline__item">
+                        Organización y planificación de actividades recreativas
+                        y educativas.
+                      </li>
+                      <li class="timeline__item">
+                        Trabajo con grupos de diferentes edades y habilidades.
+                      </li>
+                      <li class="timeline__item">
+                        Resolución de conflictos y gestión de comportamientos.
+                      </li>
+                      <li class="timeline__item">
+                        Creatividad en el diseño de actividades lúdicas y
+                        formativas.
+                      </li>
+                      <li class="timeline__item">
+                        Supervisión y seguridad de los participantes en
+                        actividades al aire libre.
+                      </li>
+                      <li class="timeline__item">
+                        Colaboración con otros monitores y personal de apoyo.
+                      </li>
+                    </ul>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="resume__right">
+              <header class="resume__subheader subheader__skills">
+                <i class="icon__skills fa-solid fa-paintbrush"></i>
+                <h2 class="resume__subtitle">
+                  Habilidades de <span class="subtitle__color">diseño</span>
+                </h2>
+              </header>
+
+              <div class="resume__skills">
+                <article class="skills_title">
+                  <h4 class="skills__text">Photoshop</h4>
+                  <span class="skills__number">90%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--photoshop"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">Ilustrator</h4>
+                  <span class="skills__number">80%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--ilustrator"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">Indesign</h4>
+                  <span class="skills__number">80%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--indesign"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">Light Room</h4>
+                  <span class="skills__number">30%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--lightroom"
+                  ></div>
+                </div>
+              </div>
+
+              <!-- Video
+                        <header class="resume__subheader subheader__skills">
+                            <i class="icon__skills fa-solid fa-video"></i>
+                            <h2 class="resume__subtitle">Habilidades <span class="subtitle__color">Video</span></h2>
+                        </header>
+
+                        <div class="resume__skills">
+
+                            <article class="skills_title">
+                                <h4 class="skills__text">After Effects</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--after-effects"></div>
+                            </div>
+
+                            <article class="skills_title">
+                                <h4 class="skills__text">Premiere Pro</h4>
+                                <span class="skills__number">50%</span>
+                            </article>
+
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage skills__percentage--premiere-pro"></div>
+                            </div>
+
+                        </div>-->
+
+              <header class="resume__subheader subheader__skills">
+                <i class="icon__skills fa-solid fa-mobile"></i>
+                <h2 class="resume__subtitle">
+                  Habilidades <span class="subtitle__color">UX/UI</span>
+                </h2>
+              </header>
+
+              <div class="resume__skills">
+                <article class="skills_title">
+                  <h4 class="skills__text">Figma</h4>
+                  <span class="skills__number">90%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--figma"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">Sketch</h4>
+                  <span class="skills__number">50%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--sketch"
+                  ></div>
+                </div>
+              </div>
+
+              <header class="resume__subheader subheader__skills">
+                <i class="icon__skills fa-solid fa-code"></i>
+                <h2 class="resume__subtitle">
+                  Habilidades de <span class="subtitle__color">Frontend</span>
+                </h2>
+              </header>
+
+              <div class="resume__skills">
+                <article class="skills_title">
+                  <h4 class="skills__text">HTML5</h4>
+                  <span class="skills__number">100%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--html5"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">CSS3</h4>
+                  <span class="skills__number">100%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--css3"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">JavaScript</h4>
+                  <span class="skills__number">80%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--javascript"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">Bootstrap5</h4>
+                  <span class="skills__number">80%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--bootstrap5"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">Angular</h4>
+                  <span class="skills__number">50%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--angular"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">React</h4>
+                  <span class="skills__number">50%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--react"
+                  ></div>
+                </div>
+              </div>
+
+              <header class="resume__subheader subheader__skills">
+                <i class="icon__skills fa-solid fa-gears"></i>
+                <h2 class="resume__subtitle">
+                  Habilidades <span class="subtitle__color">Backend</span>
+                </h2>
+              </header>
+
+              <div class="resume__skills">
+                <article class="skills_title">
+                  <h4 class="skills__text">Wordpress</h4>
+                  <span class="skills__number">80%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--wordpress"
+                  ></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">PHP</h4>
+                  <span class="skills__number">30%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div class="skills__percentage skills__percentage--php"></div>
+                </div>
+
+                <article class="skills_title">
+                  <h4 class="skills__text">MySQL</h4>
+                  <span class="skills__number">20%</span>
+                </article>
+
+                <div class="skills__progressbar">
+                  <div
+                    class="skills__percentage skills__percentage--mysql"
+                  ></div>
+                </div>
+              </div>
+
+              <header class="resume__subheader">
+                <h2 class="resume__subtitle">Areas de conocimientos</h2>
+              </header>
+
+              <div class="resume__knowledges">
+                <ul class="knowledges__list">
+                  <li class="knowledges__option">Diseño</li>
+                  <li class="knowledges__option">Programación</li>
+                  <li class="knowledges__option">Diseo Web</li>
+                  <li class="knowledges__option">Comunicación</li>
+                  <li class="knowledges__option">Psicologia</li>
+                  <li class="knowledges__option">UX/UI</li>
+                  <li class="knowledges__option">Branding</li>
+                </ul>
+              </div>
+            </section>
+          </div>
+
+          <div class="reume__certificate">
+            <header class="resume__subheader">
+              <h2 class="resume__title">Certificados</h2>
+            </header>
+
+            <section class="certificates__container">
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en Diseño</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2023</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en Photoshop</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en Ilustrator</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en After Effects</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en Figma</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en HTML5 y CSS3</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en React</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en Angular</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en JavaScript</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+
+              <article class="certificates__certificate">
+                <div class="certificate__logo">
+                  <img
+                    class="certificate__image"
+                    src="assets/img/certificado-1.png"
+                    alt=""
+                  />
+                </div>
+                <div class="certificate__content">
+                  <h4 class="certificate__title">Master en PHP y MySQL</h4>
+                  <span class="certificate__id">ID Verificación: 5367486</span>
+                  <span class="certificate__date">10 de Junio 2020</span>
+                </div>
+              </article>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

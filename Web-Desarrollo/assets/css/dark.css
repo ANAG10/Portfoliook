@@ -1,0 +1,161 @@
+/*VARIABLES*/
+:root{
+    --color-text-body:#D3D3D4;
+    --color-primary:#5956e9;
+    --color-secondary:#D3D3D4;
+    --color-banner:#27272E;
+    --color-text-btn:#fff;
+    --color-bg-btn:#2522ba;
+    --color-subtitle:#c75c6f;
+    --color-title:#D3D3D4;
+    --color-bg-services:#27272E;
+    --color-bg-project:#292930;
+    --color-bg-dark: #303035;
+    --color-text-description:#99A1AA;
+    --color-hover-dark:#FFDC60;
+    --color-borders:#e6e3e9;
+}
+
+body{
+    background-color: #212121;
+}
+
+/*MENÚ NAVEGACIÓN RESPONSIVE*/
+.menu-mobile{
+    box-shadow: 0px 0px 85px -35px var(--color-text-description);
+    background-color: var(--color-banner) ;
+}
+
+.mobile-btn__wrap{
+    border: 1px solid var(--color-secondary);
+}
+/*MENU PRINCIPAL*/
+
+.nav__title:hover{
+    color:var(--color-secondary);
+}
+
+.nav__title::before{
+    background-color: var(--color-secondary);
+}
+
+.nav__submenu{
+    border: 1px solid var(--color-secondary);
+    background-color: var(--color-banner);
+}
+
+.submenu__title:hover{
+    color: var(--color-secondary);
+}
+
+.submenu__title::before{
+    background-color: var(--color-secondary);
+}
+
+.menu__navbar--fixed{
+    background-color: var(--color-banner);
+}
+
+/*BANNER*/
+
+.layout__banner{
+    border: 2px solid var(--color-secondary);
+}
+.banner__btn{
+    background-color: var(--color-primary);
+}
+
+/*SERVICIOS*/
+
+.services__service{
+    background:var(--color-banner);
+    background-color: var(--color-banner);
+}
+
+.services__service:hover{
+    background-color: var(--color-bg-dark) ;
+}
+
+.service__more:hover,
+.service__title:hover{
+color: var(--color-hover-dark);
+}
+
+.service__more:hover::before{
+background-color: var(--color-hover-dark);
+}
+
+
+/*PROYECTOS*/
+
+.project__content{ 
+    background-color: var(--color-banner);
+}
+
+.project__title:hover{
+    color: var(--color-hover-dark);
+}
+
+/*ESTADISTICAS*/
+.stats__stat:hover{
+    border: 1px solid var(--color-primary);
+    background: linear-gradient(180deg, var(--color-bg-dark), var(--color-primary));
+    box-shadow: 0px 10px 20px -5px  var(--color-secondary);
+}
+.stats__stat:hover .stat__count{
+    color: var(--color-secondary);
+ }
+ 
+/*RESEÑAS*/
+.review__description{
+    color: var(--color-text-body);
+}
+
+.author__name{
+    color: var(--color-text-body);
+}
+
+
+.reviews__review:hover .author__description{
+    color: var(--color-bg-services);
+}
+
+/*CLIENTES*/
+
+/*NOTICIAS*/
+.new__more{
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: var(--color-hover-dark);
+    transition: all 300ms ease-in-out;
+}
+
+/* CONTACTO */
+.layout__contact::before{
+    background-color: var(--color-banner);
+}
+
+.contact__subtitle{
+    color: var(--color-hover-dark);
+}
+.contact__btn {
+    color: var(--color-secondary);
+    background-color: var(--color-primary);
+}
+
+/* FOOTER */
+
+.fleft__group{
+    background-color: var(--color-bg-dark);
+    box-shadow: none;
+}
+
+.fleft__form-control{
+    background-color: var(--color-bg-dark);
+}
+
+.widget__link_hover{
+    color: var(--color-hover-dark);
+}
+
