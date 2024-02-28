@@ -340,6 +340,10 @@
         flex-basis: 100%;
     }
 
+    .timeline__year{
+        font-size: 1.2rem;
+    }
+
     .form__right{
         flex-basis: 100%;
         max-width: 100%;
