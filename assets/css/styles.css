@@ -48,23 +48,19 @@ body {
 .layout{
     position: relative;
     min-width: 1290px;
-    width: 75%;
-    height: 80vh;
+    width: 100%;
+    height: 100vh;
     min-height: 80vh;
-    margin: 5vh auto;
     display: grid;
     grid-template-areas: 
     "aside content";
     grid-template-columns: 30% 70%;
-
-    border-radius: 5rem;
     box-shadow: 0 0 100px -35px whitesmoke;
 }
 
 /* BARRA LATERAL AZUL*/
 .layout__aside {
     grid-area: aside;
-    border-radius: 5rem 0 0 5rem ;
     overflow: hidden;
 }
 
@@ -231,27 +227,35 @@ body {
     grid-area: content;
     background-color: #447CCE;
     min-height: 100%;
-    border-radius: 0 10rem 10rem 0;
 }
 
 .content__page {
     min-height: 100%;
     height: 100%;
     background-color: var(--color-principal);
-    border-radius: 5rem;
     box-shadow: 10px 10px -5px rgba(0, 0, 0, 0.2);
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .page__name{
     font-size: 6rem;
-    margin-bottom: 1.5rem;
+    margin: 2.5rem;
+    margin-top: 15rem;
 }
 
+.page__info{
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 3rem 14rem;
+    margin-top: 0rem;
+    margin-bottom: 6rem;
+    text-align: center;
+    color:var(--color-title);
+    
+}
+ 
 .page__job{
     font-size: 2.1rem;
     font-weight: lighter;

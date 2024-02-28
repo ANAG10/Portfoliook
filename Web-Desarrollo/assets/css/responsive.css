@@ -456,8 +456,28 @@
     }
 
  .layout__services{
-        margin-left: 3rem;
+        margin-left: 1rem;
         margin-right: 1rem;
+    }
+    .projects__categories{
+        margin-bottom: 5.5rem;
+        gap: 1rem;
+    }
+
+    .stat__count{
+        font-size: 3rem;
+    }
+    .stats__stat{
+        width: 100%;
+    }
+    .stats__progress{
+        flex-direction:row;
+    }
+    
+.categories__item{
+
+        font-size: 1.5rem;
+
     }
 
     .contact__thumb--chat{
@@ -486,4 +506,13 @@
         flex-basis: auto;
     }
 
+
 }
+
+
+
+
+
+
+
+
