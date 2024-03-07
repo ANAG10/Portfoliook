@@ -246,10 +246,10 @@ body {
 }
 
 .page__info{
-    font-size: 1.8rem;
+    font-size: 2rem;
     font-weight: 300;
     margin: 3rem 14rem;
-    margin-top: 0rem;
+    margin-top: 2rem;
     margin-bottom: 6rem;
     text-align: center;
     color:var(--color-title);
@@ -257,7 +257,7 @@ body {
 }
  
 .page__job{
-    font-size: 2.1rem;
+    font-size: 1.4rem;
     font-weight: lighter;
     color: var(--color-title);
 }
