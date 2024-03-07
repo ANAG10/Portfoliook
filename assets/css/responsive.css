@@ -276,6 +276,20 @@
 }
 
 @media (max-width:585px){
+    .page__name{
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+        text-align: center;
+    }
+
+
+
+    .page__info{
+        font-size: 1.8rem;
+        margin: 0 4rem;
+        margin-bottom: 2rem;
+    }
+
     .about__personal-info{
         flex-direction: column;
     }
@@ -319,10 +333,15 @@
         text-align: center;
         margin-bottom: 3rem;
     }
+
     .page__job{
-        font-size: 2rem;
+        font-size: 2.4rem;
         line-height:4rem;
         text-align: center;
+    }
+
+    .job__title{
+        font-size: 1.6rem;
     }
 
     .certificate__logo{
