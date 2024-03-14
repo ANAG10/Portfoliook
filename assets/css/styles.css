@@ -112,7 +112,7 @@ body {
 .user-info__job{
     margin-top: 2rem;
     font-size: 1.7rem;
-    font-weight: 200;
+    font-weight: 400;
     color: var(--color-principal);
 }
 
@@ -241,13 +241,14 @@ body {
 
 .page__name{
     font-size: 6rem;
+    font-weight: 600;
     margin: 2.5rem;
     margin-top: 15rem;
 }
 
 .page__info{
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 400;
     margin: 3rem 14rem;
     margin-top: 2rem;
     margin-bottom: 6rem;
@@ -258,7 +259,7 @@ body {
  
 .page__job{
     font-size: 1.4rem;
-    font-weight: lighter;
+    font-weight: 400;
     color: var(--color-title);
 }
 
@@ -453,7 +454,7 @@ body {
 .personal-info__title{
     margin-right: 0.5rem;
     color: var(--color-secondary);
-    font-weight: bold;
+    font-weight: 500;
 }
 
 /*ESTILOS COMPARTIDOS ABOUT*/
@@ -487,6 +488,7 @@ body {
 .resume__subtitle,
 .form-header__subtitle{
     font-size: 2.1rem;
+    font-weight: 600;
 }
 
 .services__title::after,
@@ -541,6 +543,7 @@ body {
 
 .service__title{
     font-size: 1.6rem;
+    font-weight: 500;
     margin: 0.5rem 0;
 }
 
@@ -616,12 +619,13 @@ body {
 
 .review__name{
     margin-bottom: 0.5rem;
+    font-weight: 500;
     font-size: 1.5rem;
 }
 
 .review__company{
     color: var(--color-company);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.3rem;
 }
 
@@ -746,7 +750,7 @@ padding-right: 2.5rem;
     margin: 0.3rem 0;
     line-height: 1.9rem;
     font-size: 1.4rem;
-    font-weight: 600;
+    font-weight: 400;
     color: var(--color-title)
 }
 
@@ -765,6 +769,7 @@ padding-right: 2.5rem;
 
 .timeline__title{
     font-size: 1.6rem;
+    font-weight: 500;
     margin-bottom: 0.3rem;
 }
 
@@ -848,6 +853,7 @@ padding-right: 2.5rem;
 
 .skills__text{
     font-size: 1.3rem;
+    font-weight: 400;
     line-height: 1.4rem;
     margin-bottom: 0.4rem;
 
@@ -963,9 +969,9 @@ padding-right: 2.5rem;
 }
 
 .certificate__title{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-weight: 500;
     margin-bottom: 0.5rem;
-    text-align: center;
 }
 
 .certificate__id{
@@ -1005,7 +1011,7 @@ padding-right: 2.5rem;
     color: var(--color-title);
     padding: 0.5rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     flex: row;
     align-content: center;
@@ -1072,7 +1078,7 @@ padding-right: 2.5rem;
 .gallery__title{
     font-size: 1.6rem;
     padding: 1.5rem 0;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .gallery__icon{
@@ -1173,7 +1179,7 @@ padding-right: 2.5rem;
     color: var(--color-title);
     padding: 0.5rem 2rem;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     flex: row;
     align-content: center;
@@ -1346,6 +1352,7 @@ padding-right: 2.5rem;
 
 .article__title{
     font-size: 1.8rem;
+    font-weight: 500;
     margin-top: 1rem;
 }
 
@@ -1388,7 +1395,7 @@ padding-right: 2.5rem;
 }
 
 .contact__subtitle{
-    font-weight: 300;
+    font-weight: 400;
     font-size: 1.5rem;
     margin-top: 1rem;
 }
