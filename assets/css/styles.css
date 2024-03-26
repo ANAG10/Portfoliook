@@ -456,6 +456,17 @@ body {
     color: var(--color-secondary);
     font-weight: 500;
 }
+.personal-info__question{
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--color-title);
+}
+.personal-info__question--blue{
+    font-size: 2rem;
+    color: var(--color-secondary);
+}
 
 /*ESTILOS COMPARTIDOS ABOUT*/
 
@@ -887,8 +898,7 @@ padding-right: 2.5rem;
 
 .skills__percentage--photoshop{width: 90%;}
 .skills__percentage--ilustrator{width: 80%;}
-.skills__percentage--indesign{width: 80%;}
-.skills__percentage--lightroom{width: 30%;}
+.skills__percentage--indesign{width: 70%;}
 
 /* PORCETAJES VIDEO */
 
@@ -949,20 +959,22 @@ padding-right: 2.5rem;
     box-shadow: 0 10px 10px -8px var(--color-secondary);
 }
 
+
 .certificate__logo{
-    width: 15rem;
+    width: 100%;
     height: 100%;
-    padding: 2.5rem;
     background-color: var(--color-background-certificate);
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
+    transition: all 300ms ease-in-out;
 }
 
 .certificate__image{
     width: 100%;
 }
+
 
 .certificate__content{
     padding: 2rem 2.5rem;
