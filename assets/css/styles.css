@@ -1096,7 +1096,24 @@ padding-right: 2.5rem;
 
 }
 
-.gallery__item:hover .gallery__image{
+.gallery__image--kazoku{
+    position: absolute;
+    top: -115px;
+    object-fit: cover; /* Para cubrir todo el espacio disponible */
+    transition: all 300ms ease-in-out;
+}
+
+.gallery__image--aroma{
+    width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            transition: all 300ms ease-in-out;
+}
+
+.gallery__item:hover .gallery__image,
+.gallery__item:hover .gallery__image--kazoku,
+.gallery__item:hover .gallery__image--aroma{
     transform: scale(1.1);
 }
 
