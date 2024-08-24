@@ -354,6 +354,10 @@
     .form__container{
         flex-direction: column;
     }
+    .gallery__container-image{
+        height: 18rem;
+        width: 28rem;
+    }
 
     .form__left{
         flex-basis: 100%;

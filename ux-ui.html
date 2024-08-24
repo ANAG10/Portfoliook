@@ -1,0 +1,252 @@
+<html lang="es">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/poppins">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/scroll.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!--Script-->
+    <script src="assets/js/menu.js" defer></script>
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Menu Superior-->
+    <nav class="content__menu">
+        <ul class="content-menu__list"> 
+            <li class="content-menu__option ">
+                <a href="index.html" class="content-menu__link menu__link--active">
+                    <i class="content-menu__icon fa-solid fa-house"></i>
+                    <span class="content-menu__overlay">Home</span>
+                </a>
+            </li>
+
+            <li class="content-menu__option">
+                <a href="sobre-mi.html" class="content-menu__link">
+                    <i class="content-menu__icon fa-solid fa-user"></i>
+                    <span class="content-menu__overlay">Sobre mi</span>
+                </a>
+            </li> 
+
+            <li class="content-menu__option">
+                <a href="curriculum.html" class="content-menu__link">
+                    <i class="content-menu__icon fa-solid fa-graduation-cap"></i>
+                    <span class="content-menu__overlay">Curriculum</span>
+                </a>
+            </li>
+
+            <li class="content-menu__option">
+                <a href="portfolio.html" class="content-menu__link">
+                    <i class="content-menu__icon fa-solid fa-briefcase"></i>
+                    <span class="content-menu__overlay">Portfolio</span>
+                </a>
+            </li>
+
+            <li class="content-menu__option">
+                <a href="contacto.html" class="content-menu__link">
+                    <i class="content-menu__icon fa-solid fa-envelope"></i>
+                    <span class="content-menu__overlay">Contacto</span>
+                </a>
+            </li>
+        </ul>
+</nav>
+
+    <!-- Layout Principal-->
+    <div class="layout">
+
+        <!-- Barra Lateral (info usuario)-->
+        <aside class="layout__aside">
+
+            <section class="aside__user-info">
+
+                <!-- Información general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="assets/img/default-user.jpg" class="user-info__image" alt="Foto de perfil de Ana Gordo"; >
+                    </div>
+                    <h2 class="user-info__name"> Ana Gordo Ortiz </h2>
+                    <h4 class="user-info__job"> Diseño UX/UI </h4>
+                </div>
+                <!-- Menú de información -->
+                <nav class="layout__menu">
+                    <ul class="menu__list"> 
+                        <li class="menu__option ">
+                            <a href="index.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-house"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre mi</span>
+                            </a>
+                        </li> 
+
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="portfolio.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portfolio</span>
+                            </a>
+                        </li>
+
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Link redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class=" social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class=" social__icon fa-brands fa-behance"></i>
+                            </a>
+                        </li> 
+
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class=" social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Boton curriculum -->
+                <div class="user-info__buttons">
+                    <a href="contacto.html" class="user-info__btn">
+                         Contacta 
+                    </a>
+                </div>
+                
+                <!-- Pie de página -->
+
+                <footer class="user-info__footer">
+                    &copy; 2024 Ana Gordo WEB
+                </footer>
+
+            </section>
+
+        </aside>
+
+        <!-- Menu Responsive -->
+        <div class="layout__menu-toggle">
+            <i class="menu-toggle__icon fa-solid fa-bars"></i>
+            <i class="menu-toggle__icon fa-solid fa-xmark"></i>
+        </div>
+
+        <!-- Contenido Principal -->
+        <main class="layout__content">
+            <section class="content__page content__portfolio">
+
+                <header class="portfolio__header">
+                    <h1 class="portfolio__title">Diseño UX/UI</h1>
+                </header>
+
+                <nav class="portfolio__navbar">
+                    <ul class="portfolio__menu">
+                        <li class="portfolio__option">
+                            <a href="portfolio.html" class="portfolio__link">
+                                <i class="portfolio__icon fa-solid fa-briefcase"></i>
+                                <p class="portfolio__text">Todo</p>
+                            </a>
+                        </li>
+
+                        <li class="portfolio__option">
+                            <a href="ux-ui.html" class="portfolio__link portfolio__option--active">
+                                <i class="portfolio__icon fa-solid fas fa-users"></i>
+                                <p class="portfolio__text">Diseño UX/UI</p>
+                            </a>
+                        </li>
+
+
+                        <li class="portfolio__option">
+                            <a href="grafico.html" class="portfolio__link">
+                            <i class="portfolio__icon fa-solid fa-pen-nib"></i>
+                            <p class="portfolio__text">Diseño Gráfico</p>    
+                            </a>
+                        </li>
+
+                        <li class="portfolio__option">
+                            <a href="desarrollo.html" class="portfolio__link">
+                                <i class="portfolio__icon fa-solid fa-laptop-code"></i>
+                                <p class="portfolio__text">Diseño Web</p>
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+
+                <section class="portfolio__gallery">
+                    <section class="branding__gallery">
+
+                        <div class="branding__container">
+                       
+                    <figure class="gallery__item">
+
+                        <figcaption class="gallery__title">Design Thinking - Green up </figcaption>
+                        <i class="gallery__icon fa-solid fa-users"></i>
+                    
+
+                        <div class="gallery__container-image">
+                            <a href="./assets/documents/Green Up ok.pdf" class="gallery__link">
+                                <img class="gallery__image gallery__image--greenup" src="assets/img/Caso-estudio.png" alt="Imagen Design Thinking - Green up">
+                            </a>
+                        </div>
+                        
+
+                    </figure>
+
+                    <figure class="gallery__item">
+
+                        <figcaption class="gallery__title">Design Sprint - Planealo</figcaption>
+                        <i class="gallery__icon fa-solid fa-users"></i>
+                       
+                        <div class="gallery__container-image">
+                            <a href="" class="gallery__link">
+                                <img class="gallery__image--planealo" src="" alt="Imagen Design Sprint - Planealo">
+                            </a>
+                        </div>
+
+                    </figure>
+                        </div>
+
+                    </section>
+                    
+                </section>
+
+             </section>
+        </main>
+
+
+    </div>
+    
+</body>
+</html>
