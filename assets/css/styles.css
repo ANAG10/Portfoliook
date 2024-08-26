@@ -1125,6 +1125,11 @@ padding-right: 2.5rem;
             transition: all 300ms ease-in-out;
 }
 
+.gallery__image--planealo{
+    width: 100%;
+    height: 100%;
+}
+
 .gallery__item:hover .gallery__image,
 .gallery__item:hover .gallery__image--kazoku,
 .gallery__item:hover .gallery__image--editorial{
